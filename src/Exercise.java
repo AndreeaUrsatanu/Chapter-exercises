@@ -53,7 +53,6 @@ public class Exercise {
     public static String readFromFile(String fileName) {
         File file = new File(fileName);
         StringBuilder outputString = new StringBuilder();
-
         try {
             FileReader fileReader = new FileReader(file);
             BufferedReader bufferedReader = new BufferedReader(fileReader);
